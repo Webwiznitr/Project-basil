@@ -8,6 +8,7 @@ The scope of the project is to design a roadmap website. The vision of this proj
 
 ### We are really excited to see your awesome PRs. As a recognition of your awesome efforts, we would be <span style="color:orange;">Shipping Free Schwag Kits 🎁</span> as a contribution gratitute.
 
+<img src="https://github.com/Webwiznitr/MilkERP/blob/master/HFSchwags.jpg" height="600">
 `Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
 
 ### SCHAWAG KIT INCLUDES:
