@@ -30,22 +30,6 @@ body{
   border-radius: 20px;
 }
 
-.card-header2{
-  background:url(images/machine.jpg) no-repeat center;
-  padding: 60px 40px;
-  
-  border: 2px solid black;
-  border-radius: 20px;
-}
-
-.card-header3{
-  background:url(images/appdev.jpg) no-repeat center;
-  padding: 60px 40px;
-  
-  border: 2px solid black;
-  border-radius: 20px;
-}
-
 .pic{
   display: inline-block;
   
