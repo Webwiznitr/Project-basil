@@ -1,4 +1,10 @@
 # Roadmap
+[![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+The scope of the project is to design a roadmap website. The vision of this project is to provide tracks to beginners in different fields of technology like AI, ML, Web Development, App Development etc.
 
 ### We are really excited to see your awesome PRs. As a recognition of your awesome efforts, we would be <span style="color:orange;">Shipping Free Schwag Kits 🎁</span> as a contribution gratitute.
 
@@ -25,3 +31,13 @@ NOTE 1: Please abide by the [Contributing Guidelines](https://github.com/Webwizn
 NOTE 2: Please abide by the [Code of Conduct](https://github.com/Webwiznitr/MilkERP/blob/master/CODE_OF_CONDUCT.md).
 
 <br>
+
+## The whole project will be created on basic html, css and javascript so beginners can also contribute.
+ 
+## Home Page 
+- It will contain all the topics for which roadmaps are available.
+
+## Page for every topic
+- It will contain links to various resources like videos, free courses or blogs and the order in which they should be referred.
+
+More Details are coming soon follow the repo to stay updated.
