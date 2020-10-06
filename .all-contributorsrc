@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "kanchitank",
+      "name": "Kanchi Tank",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/65490196?v=4",
+      "profile": "https://www.linkedin.com/in/kanchitank",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Project-basil",
+  "projectOwner": "Webwiznitr",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
