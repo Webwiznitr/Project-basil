@@ -5,6 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 .parallax {
   /* The image used */
   background-image: url("images/abstract.jpg");
