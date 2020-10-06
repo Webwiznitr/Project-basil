@@ -4,7 +4,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-The scope of the project is to design a roadmap website. The vision of this project is to provide tracks to beginners in different fields of technology like AI, ML, Web Development, App Development etc.
+The scope of the project is to design a roadmap website. The vision of this project is to provide tracks to beginners in different fields of technology like AI, ML, Web Development, App Development etc. The list of courses must be arranged sequentially. All the list of Journals, video links and pdfs must be free ** FREE**. The only aim to make this project is returing back to the community.
+
 
 ### We are really excited to see your awesome PRs. As a recognition of your awesome efforts, we would be <span style="color:orange;">Shipping Free Schwag Kits 🎁</span> as a contribution gratitute.
 
@@ -18,6 +19,10 @@ The scope of the project is to design a roadmap website. The vision of this proj
 - Bagpacks🎒
 - Stickers Pack😍
 - And Many More Exciting Prizes🎁
+
+# Ways to contribute:
+1. Solve the issues which are listed
+2. Create your own issue and then send PR.
 
 Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
 
