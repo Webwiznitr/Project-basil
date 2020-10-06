@@ -4,8 +4,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The scope of the project is to design a roadmap website. The vision of this project is to provide tracks to beginners in different fields of technology like AI, ML, Web Development, App Development etc. The list of courses must be arranged sequentially. All the list of Journals, video links and pdfs must be free **FREE**. The only aim to make this project is returing back to the community.
 
