@@ -1,0 +1,52 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "kanchitank",
+      "name": "Kanchi Tank",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/65490196?v=4",
+      "profile": "https://www.linkedin.com/in/kanchitank",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sumana2001",
+      "name": "Sumana Basu",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/63084088?v=4",
+      "profile": "http://aliferous.xyz/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Aniket762",
+      "name": "Aniket Pal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/67703407?v=4",
+      "profile": "http://aliferous.xyz/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "AbhishekLwagun",
+      "name": "Abhishek",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/69157459?v=4",
+      "profile": "https://github.com/AbhishekLwagun",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Project-basil",
+  "projectOwner": "Webwiznitr",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
