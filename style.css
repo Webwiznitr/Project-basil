@@ -5,10 +5,17 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+h1{
+  text-shadow: 2px 2px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
 
 .parallax {
   /* The image used */
-  background-image: url("images/abstract.jpg");
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(151, 223, 245));
 
   /* Set a specific height */
   min-height: 400px;
@@ -46,6 +53,8 @@ body{
   border: 2px solid black;
   /*border-radius: 20px;*/
 }
+
+
 #one{
   background:url('images/aiwallpaper.jpeg');
   background-size: 100%;
@@ -94,7 +103,7 @@ body{
 .pic img{
   display: block;
   width: 200px;
-  height: 200px;
+  height: 300px;
   border-radius: 50%;
 }
 
@@ -116,16 +125,16 @@ body{
   margin: 20px 0;
 }
 
-.sm a{
+/*.sm a{
   color: #f2f2f2;
   width: 56px;
   font-size: 22px;
   transition: .3s linear;
-}
+}*/
 
-.sm a:hover{
+/*.sm a:hover{
   color: #e66767;
-}
+}*/
 
 .contact-btn{
   display: inline-block;
