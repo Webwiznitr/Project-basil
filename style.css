@@ -24,11 +24,14 @@ body{
 }
 
 
-.card-header{
-  background:url(images/aiWallpaper.jpeg) no-repeat center;
-  padding: 60px 40px;
-  border: 2px solid black;
-  border-radius: 20px;
+
+.card-header {
+    background: url(images/aiWallpaper.jpeg) no-repeat center;
+    padding: 60px 40px;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-bottom: none;
+    height: 15rem;
 }
 
 .pic{
