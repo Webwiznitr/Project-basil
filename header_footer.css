@@ -15,6 +15,7 @@
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
     --secondary-font-color: #95ecf6;
+    --secondary-font-color1: #b98eec;
     --body-font-color: #515151;
 }
 
@@ -154,6 +155,7 @@ header{
     color: var(--secondary-font-color);
 }
 
+
 /*Hero*/
 .hero{
     width: 100%;
@@ -170,20 +172,6 @@ header{
     font-size: 5.5rem;
     font-family: var(--secondary-font);
     color: var(--secondary-font-color);
-    font-weight: 100;
-    line-height: .36;
-    letter-spacing: 2px;
-    position: relative;
-    opacity: 0;
-    animation: fadeUp .5s forwards;
-    animation-delay: .5s;
-    z-index: 1;
-}
-
-.sub-headline1{
-    font-size: 5.5rem;
-    font-family: var(--secondary-font);
-    color: var(--secondary-font-color1);
     font-weight: 100;
     line-height: .36;
     letter-spacing: 2px;
@@ -321,6 +309,148 @@ header{
     background-color: var(--secondary-font-color);
 }
 
+.body-btn{
+    font-size: 1.5rem;
+    color: var(--secondary-font-color);
+    position: relative;
+    transition: color .5s;
+}
+
+.body-btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--secondary-font-color);
+    transition: background-color .5s;
+}
+
+.body-btn:hover,
+.body-btn:focus{
+    color: var(--main-font-color-dark);
+}
+
+.body-btn:hover::before,
+.body-btn:focus::before{
+    background-color: var(--main-font-color-dark);
+}
+
+/*Footer*/
+footer{
+    padding: 7.9rem 0;
+    background: url("images/footer.jpg") center no-repeat;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.back-to-top{
+    width: 7rem;
+    height: 7rem;
+    background-color: #2a00e3;
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.back-to-top i{
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+    animation: up 2s infinite;
+}
+
+.footer-content{
+    overflow: hidden;
+}
+
+.footer-content h4{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+}
+
+.footer-content .asterisk{
+    margin: 2.4rem 0;
+}
+
+.footer-content-about{
+    margin-bottom: 5.4rem;
+}
+
+.footer-content-about p{
+    line-height: 2;
+}
+
+.footer-content-divider p{
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.social-icons{
+    list-style: none;
+    margin-bottom: 5.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons i{
+    font-size: 2rem;
+    color: #fff;
+    padding: .8rem 2rem;
+    opacity: .5;
+    transition: color .5s;
+}
+
+.social-icons i:hover,
+.social-icons i:focus{
+    color: var(--secondary-font-color1);
+}
+
+.newsletter-form{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-input{
+    width: 100%;
+    color: #121212;
+    max-width: 17.5rem;
+    padding: 1rem;
+    border-radius: .2rem;
+}
+
+.newsletter-btn{
+    background-color: transparent;
+    border: none;
+    color: var(--main-font-color-dark);
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1px .6rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 12rem;
+}
+
+.copyright h4{
+    color: #fff;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 1.2rem;
+    margin-right: -3px;
+}
 
 /*Media queries*/
 @media screen and (min-width: 900px) {
@@ -383,6 +513,10 @@ header{
         font-size: 8rem;
     }
 
+    .sub-headline2{
+        font-size: 8rem;
+    }
+
     .first-letter{
         font-size: 12.2rem;
     }
@@ -403,8 +537,47 @@ header{
         max-width: 17.4rem;
     }
 
+    .restaurant-info{
+        display: flex;
+        align-items: center;
+    }
+
+    .restaurant-info > div{
+        flex: 1;
+    }
+
     .padding-right{
         padding-right: 7rem;
+    }
+
+    .footer-content{
+        max-width: 77.5rem;
+        margin: auto;
+    }
+
+    .footer-content-about{
+        max-width: 51.3rem;
+        margin: 0 auto 5.4rem;
+    }
+
+    .footer-content-divider{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-media,
+    .newsletter-form{
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+    }
+
+    .social-icons i{
+        opacity: 1;
+    }
+
+    .newsletter-btn{
+        margin-left: 15rem;
     }
 }
 
