@@ -1,14 +1,37 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: "Ubuntu", sans-serif;
   box-sizing: border-box;
   text-decoration: none;
 }
+h1{
+  text-shadow: 2px 2px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+
+.parallax {
+  /* The image used */
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(151, 223, 245));
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;/*this is by which the actual parallax is created*/
+
+  /*below is just for centering and stuff*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 body{
-  height: 100vh;
-  background-size: cover;
+  /*height: 100vh;*/
+  /*background-size: cover;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,20 +48,44 @@ body{
 
 
 
-.card-header {
-    background: url(images/aiWallpaper.jpeg) no-repeat center;
-    padding: 60px 40px;
-    border: 2px solid black;
-    border-radius: 2px;
-    border-bottom: none;
-    height: 15rem;
+.card-header{
+  /*background:url(images/aiWallpaper.jpeg) no-repeat center;*/
+  padding: 60px 40px;
+  border: 2px solid black;
+  /*border-radius: 20px;*/
 }
+
+
+#one{
+  background:url('images/aiwallpaper.jpeg');
+  background-size: 100%;
+}
+#two{
+  background:url('images/machinelearning.jpg');
+  background-size: 100%;
+}
+#three{
+  background:url('images/appdev.jpg');
+  background-size: 100%;
+}
+#four{
+  background:url('images/web.jpg');
+  background-size: 100%;
+}
+#five{
+  background:url('images/cyber.jpg');
+  background-size: 100%;
+}
+#six{
+  background:url('images/cc.jpg');
+  background-size: 100%;
+}
+
 
 .pic{
   display: inline-block;
-  
 }
-
+/*
 @keyframes animated-gradient{
   25%{
     background-position: left bottom;
@@ -52,12 +99,12 @@ body{
   100%{
     background-position: left top;
   }
-}
+}*/
 
 .pic img{
   display: block;
   width: 200px;
-  height: 200px;
+  height: 300px;
   border-radius: 50%;
 }
 
@@ -79,16 +126,16 @@ body{
   margin: 20px 0;
 }
 
-.sm a{
+/*.sm a{
   color: #f2f2f2;
   width: 56px;
   font-size: 22px;
   transition: .3s linear;
-}
+}*/
 
-.sm a:hover{
+/*.sm a:hover{
   color: #e66767;
-}
+}*/
 
 .contact-btn{
   display: inline-block;
@@ -109,7 +156,7 @@ body{
   background: #000000;
   padding: 30px 10px;
   margin-top: 5px;
-  border-radius: 20px;
+  /*border-radius: 80px;*/
 }
 
 .numbers{
@@ -132,7 +179,7 @@ body{
 
 .border{
   width: 1px;
-  height: 30px;
+  height: 40px;
   background: #bbb;
 }
 

@@ -13,15 +13,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+   
+<div class="parallax">
+<div>
+  <h1>Take a look at the Roadmaps for each of the below cards!</h1>
 <!-- Terms we will use to define categories Beginner Amateur Semi pro Professional Word class-->
+<!--row1-->
 <!--1st box-->
-<div class="row" style="margin-left: 6%;">
-  <div class="col-l-4 col-m-6 col-s-12">
+<div class="container-fluid">
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="profile-card">
-      <div class="card-header" style="background:url(images/ai.png) no-repeat center;">
+      <div class="card-header" id="one" >
         <div class="name">Artificial Intelligence</div>
-        </div>
+      </div>
       <div class="card-footer">
         <div class="numbers">
           <div class="item">
@@ -37,11 +42,10 @@
       </div>
     </div>
   </div>
-
 <!--2nd box-->
-<div class="col-l-4 col-m-6 col-s-12">
+<div class="col-lg-4 col-md-6 col-sm-12">
   <div class="profile-card">
-    <div class="card-header" style="background:url(images/ml) no-repeat center;">
+    <div class="card-header"  id="two" >
       <div class="name">Machine Learning</div>
     </div>
     <div class="card-footer">
@@ -59,11 +63,10 @@
     </div>
   </div>
 </div>
-
-  <!-- 3rd box-->
-<div class="col-l-4 col-m-6 col-s-12">
+<!-- 3rd box-->
+<div class="col-lg-4 col-md-6 col-sm-12">
   <div class="profile-card">
-    <div class="card-header" style="background:url(images/ad.png) no-repeat center;">
+    <div class="card-header" id="three">
       <div class="name">App Development</div>  
     </div>
     <div class="card-footer">
@@ -81,24 +84,49 @@
     </div>
     </div>
   </div>
+</div>
 
-
+<!--2nd row-->
 <!--1st box-->
-
-  <div class="col-l-4 col-m-6 col-s-12">
-    <div class="profile-card">
-      <div class="card-header" style="background:url(images/cysec.jpg) no-repeat center;">
-        <div class="name">Cyber Security</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="profile-card">
+        <a href="Course/index.html">
+          <div class="card-header" id="four" >
+            <div class="name">Web Development</div>
+          </div>
+        </a>
+        <div class="card-footer">
+          <div class="numbers">
+            <div class="item">
+              <span>44</span>
+              Course Length
+            </div>
+            <div class="border"></div>
+            <div class="item">
+              <span>Amateur</span>
+              Level
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  <!--2nd box-->
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="profile-card">
+      <div class="card-header" id ="five" >
+        <div class="name">Cyber Security</div>
+      </div>
       <div class="card-footer">
         <div class="numbers">
           <div class="item">
-            <span>44</span>
+            <span>37</span>
             Course Length
           </div>
           <div class="border"></div>
           <div class="item">
-            <span>Amateur</span>
+            <span>Pro</span>
             Level
           </div>
         </div>
@@ -106,59 +134,31 @@
     </div>
   </div>
 
-<!--2nd box-->
-<div class="col-l-4 col-m-6 col-s-12">
-  <div class="profile-card">
-    <div class="card-header" style="background:url(images/cpro.jpg) no-repeat;">
-      <div class="name"> Competative Coding</div>
-    </div>
-    <div class="card-footer">
-      <div class="numbers">
-        <div class="item">
-          <span>37</span>
-          Course Length
-        </div>
-        <div class="border"></div>
-        <div class="item">
-          <span>Pro</span>
-          Level
+  <!-- 3rd box-->
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="profile-card">
+      <div class="card-header" id="six" >
+        <div class="name">Competitive Coding</div>  
+      </div>
+      <div class="card-footer">
+        <div class="numbers">
+          <div class="item">
+            <span>24</span>
+            Course Length
+          </div>        
+          <div class="border"></div>
+          <div class="item">
+            <span>Beginner</span>
+            Level
+          </div>
         </div>
       </div>
+      </div>
     </div>
-  </div>
-</div>
-
-  <!-- 3rd box-->
- <div class="col-l-4 col-m-6 col-s-12">
-            <div class="profile-card">
-                <a href="Course/index.html">
-                    <div class="card-header" style="background:url(images/wdes.jpg) no-repeat center;">
-                        
-                        <div class="name">Web Development</div>
-                </a>
+  </div> 
 
 
-                </div>
-                <div class="card-footer">
-                    <div class="numbers">
-                        <div class="item">
-                            <span>24</span> Course Length
-                        </div>
-                        <div class="border"></div>
-                        <div class="item">
-                            <span>Beginner</span> Level
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
+  
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
