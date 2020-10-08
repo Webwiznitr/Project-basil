@@ -5,22 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Favicon-->
-  <link rel="icon" href="images/logo_of_webwiz-removebg-preview.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="assets/img/logo_of_webwiz-removebg-preview.png" type="image/png" sizes="16x16">
   <title>Roadmap Project</title>
-
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel='stylesheet' id='customify-font-stylesheet-10-css'  href='//pxgcdn.com/fonts/billy-ohio/stylesheet.css' type='text/css' media='all' />
 </head>
 <body>
-   
+  <header>
+    <div class="container">
+        <nav class="navb">
+            <div class="menutoggle">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+            <a href="index.html" class="logo"><img src="assets/img/logo_of_webwiz-removebg-preview.png" alt=""></a>
+            <ul class="navlist">
+                <li class="navitem">
+                    <a href="index.html" class="navlink">Home</a>
+                </li>
+                <li class="navitem">
+                    <a href="#topics" class="navlink">Topics</a>
+                </li>
+                <li class="navitem">
+                    <a href="#footer" class="navlink">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--Header ends-->
+<section class="hero" id="hero">
+    <div class="container">
+        <h2 class="sub-headline">
+            <span class="first-letter">P</span>roject
+        </h2>
+        <h1 class="headline-main">Basil</h1>
+        <div class="headline-description">
+            <div class="seperator">
+                <div class="line line-left"></div>
+                <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                <div class="line line-right"></div>
+            </div>
+            <div class="single-animation">
+                <h5>Great skills to learn</h5>
+                <h6>~ 2020 ~</h6>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Hero ends-->   
 <div class="parallax">
 <div>
-  <h1>Take a look at the Roadmaps for each of the below cards!</h1>
 <!-- Terms we will use to define categories Beginner Amateur Semi pro Professional Word class-->
 <!--row1-->
 <!--1st box-->
-<div class="container-fluid">
+<div class="container-fluid" id="topics">
 <div class="row">
   <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="profile-card">
@@ -84,6 +126,7 @@
     </div>
     </div>
   </div>
+</div>
 </div>
 
 <!--2nd row-->
@@ -156,9 +199,65 @@
       </div>
     </div>
   </div> 
+</div>
+  <footer>
+        <div class="back-to-top">
+            <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <div class="footer-content" id="footer">
+            <div class="footer-content-about animate-top">
+                <h4>About Us</h4>
+                <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum sapien ac gravida congue. Praesent vehicula consectetur dapibus. Mauris interdum enim sit amet venenatis scelerisque.
+                </p>
+            </div>
+            <div class="footer-content-divider animate-bottom">
+                <div class="contact">
+                    <h4>Contact Us</h4>
+                    <p>
+                        Lake House, <br>
+                        13 Hanway Square, <br>
+                        London, England <br>
+                    </p><br><br><br><br>
+                </div>
+                <div class="social-media">
+                    <h4>Follow along</h4>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="newsletter-container">
+                    <h4>Newsletter</h4>
+                    <form action="" class="newsletter-form">
+                        <input type="text" class="newsletter-input" placeholder="Your Email Address...">
+                        <button class="newsletter-btn" type="submit">
+                            <i class="fas fa-envelope"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright animate-bottom">
+            <h4>&copy; Copyright 2020 Project Basil, All Rights Reserved</h4>
+        </div>
+</footer>
 
-
-  
+<script src="assets/js/main.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
