@@ -1,7 +1,7 @@
 *{
   margin: 0px;
   padding: 0px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: verdana;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -9,9 +9,7 @@ h1{
   text-shadow: 2px 2px;
   text-align: center;
 }
-a{
-  text-decoration: none;
-}
+
 
 .parallax {
   /* The image used */
@@ -44,6 +42,7 @@ body{
   border-radius: 8px;
   overflow: hidden;
   margin:20px;
+  height: 100%;
 }
 
 
@@ -80,7 +79,7 @@ body{
   background-size: 100%;
 }
 #six{
-  background:url('images/cc.jpg');
+  background:url('images/cp.png');
   background-size: 100%;
 }
 
@@ -187,5 +186,9 @@ body{
   width: 1px;
   height: 40px;
   background: #bbb;
+}
+
+.courselink{
+  text-decoration: none;
 }
 
