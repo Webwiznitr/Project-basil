@@ -53,6 +53,9 @@ body{
   border: 2px solid black;
   /*border-radius: 20px;*/
 }
+.card-header:hover{
+  transform: translate3D(0,-1px,0) scale(1.2);
+}
 
 
 #one{
@@ -112,6 +115,9 @@ body{
   font-size: 28px;
   font-weight: 600;
   margin: 10px 0;
+}
+.name:hover{
+  color:blue;
 }
 
 .desc{
