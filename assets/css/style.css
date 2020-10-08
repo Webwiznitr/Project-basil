@@ -572,6 +572,7 @@ footer{
   position: relative;
   display: flex;
   justify-content: center;
+  width: 45rem !important;
 }
 
 .newsletter-input{
@@ -579,7 +580,8 @@ footer{
   color: #121212;
   max-width: 17.5rem;
   padding: 1rem;
-  border-radius: .2rem;
+  border-radius: .5rem;
+  border: none;
 }
 
 .newsletter-btn{
@@ -593,6 +595,11 @@ footer{
   top: 50%;
   transform: translateY(-50%);
   margin-left: 12rem;
+  height: 100%;
+}
+
+.newsletter-btn:hover {
+  color: #3C0BEB;
 }
 
 .copyright h4{
