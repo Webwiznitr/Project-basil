@@ -1,10 +1,11 @@
 # Roadmap
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-The scope of the project is to design a roadmap website. The vision of this project is to provide tracks to beginners in different fields of technology like AI, ML, Web Development, App Development etc. The list of courses must be arranged sequentially. All the list of Journals, video links and pdfs must be free ** FREE**. The only aim to make this project is returing back to the community.
+The scope of the project is to design a roadmap website. The vision of this project is to provide tracks to beginners in different fields of technology like AI, ML, Web Development, App Development etc. The list of courses must be arranged sequentially. All the list of Journals, video links and pdfs must be free **FREE**. The only aim to make this project is returing back to the community.
 
 
 ### We are really excited to see your awesome PRs. As a recognition of your awesome efforts, we would be <span style="color:orange;">Shipping Free Schwag Kits 🎁</span> as a contribution gratitute.
@@ -47,3 +48,26 @@ NOTE 2: Please abide by the [Code of Conduct](https://github.com/Webwiznitr/Milk
 - It will contain links to various resources like videos, free courses or blogs and the order in which they should be referred.
 
 More Details are coming soon follow the repo to stay updated.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/kanchitank"><img src="https://avatars3.githubusercontent.com/u/65490196?v=4" width="100px;" alt=""/><br /><sub><b>Kanchi Tank</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=kanchitank" title="Code">💻</a></td>
+    <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars3.githubusercontent.com/u/63084088?v=4" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=sumana2001" title="Code">💻</a></td>
+    <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars2.githubusercontent.com/u/67703407?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=Aniket762" title="Code">💻</a> <a href="https://github.com/Webwiznitr/Project-basil/commits?author=Aniket762" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/AbhishekLwagun"><img src="https://avatars0.githubusercontent.com/u/69157459?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=AbhishekLwagun" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/aleenajoseph993"><img src="https://avatars0.githubusercontent.com/u/62883961?v=4" width="100px;" alt=""/><br /><sub><b>Aleena Joseph</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=aleenajoseph993" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
