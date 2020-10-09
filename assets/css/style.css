@@ -492,7 +492,7 @@ header{
 footer{
   margin-top: 5%;
   width: 100%;
-  padding: 7.9rem 0;
+  padding: 5rem 0;
   background: url("../img/footer.jpg") center no-repeat;
   color: #fff;
   text-align: center;
@@ -572,6 +572,7 @@ footer{
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .newsletter-input{
@@ -592,7 +593,7 @@ footer{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 12rem;
+  margin-left: 13rem;
 }
 
 .copyright h4{
@@ -722,16 +723,13 @@ footer{
   .newsletter-form{
       width: 100%;
       max-width: 27.3rem;
-      margin: 0 1rem;
+      margin-bottom: 2rem;
   }
 
   .social-icons i{
       opacity: 1;
   }
 
-  .newsletter-btn{
-      margin-left: 15rem;
-  }
 }
 
 /*Animations*/
