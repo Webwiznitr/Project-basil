@@ -1,6 +1,6 @@
 # Roadmap
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -63,6 +63,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars2.githubusercontent.com/u/67703407?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=Aniket762" title="Code">💻</a> <a href="https://github.com/Webwiznitr/Project-basil/commits?author=Aniket762" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/AbhishekLwagun"><img src="https://avatars0.githubusercontent.com/u/69157459?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=AbhishekLwagun" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/aleenajoseph993"><img src="https://avatars0.githubusercontent.com/u/62883961?v=4" width="100px;" alt=""/><br /><sub><b>Aleena Joseph</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=aleenajoseph993" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://colina.dev/"><img src="https://avatars2.githubusercontent.com/u/31748140?v=4" width="100px;" alt=""/><br /><sub><b>Abigail Colina</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=maenad" title="Code">💻</a></td>
   </tr>
 </table>
 
