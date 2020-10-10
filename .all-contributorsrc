@@ -50,6 +50,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "maenad",
+      "name": "Abigail Colina",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31748140?v=4",
+      "profile": "http://colina.dev/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
