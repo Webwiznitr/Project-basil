@@ -417,6 +417,11 @@ header{
   font-weight: 600;
   margin: 10px 0;
 }
+.name:hover {
+  font-size: 30px;
+  transition: .5s;
+  text-shadow: 1px 1px 10px #121212;
+}
 
 .desc{
   font-size: 18px;
@@ -580,6 +585,7 @@ footer{
   max-width: 17.5rem;
   padding: 1rem;
   border-radius: .2rem;
+  border: 1px solid #12121275;
 }
 
 .newsletter-btn{
@@ -591,6 +597,7 @@ footer{
   padding: 1px .6rem;
   position: absolute;
   top: 50%;
+  right: 1.5rem;
   transform: translateY(-50%);
   margin-left: 12rem;
 }
