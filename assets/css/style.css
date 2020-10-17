@@ -340,7 +340,11 @@ header{
 
 /*Topics*/
 #topics{
-  margin-top: 4%;
+  padding-top: 4%;
+}
+
+#topic-wrapper {
+  background: linear-gradient(to bottom right, #fff, #d1aaee)
 }
 .profile-card{
   /* width: 400px; */
@@ -526,19 +530,23 @@ footer{
   width: 7rem;
   height: 7rem;
   background-color: #2a00e3;
-  position: absolute;
+  position: fixed;
   top: -3rem;
-  left: 50%;
+  right: 0;
+  top: 80%; /* for browsers that do not support calc() */
+  top: calc(95% - 7rem);
   transform: translateX(-50%);
   border-radius: 50%;
+  text-align: center;
+  z-index: 1000;
 }
 
 .back-to-top i{
   display: block;
   color: #fff;
   font-size: 2rem;
-  padding: 2rem;
-  animation: up 2s infinite;
+  padding: 3rem 0 2rem 0;
+  animation: up 15s infinite;
 }
 
 .footer-content{
@@ -814,11 +822,15 @@ footer{
   0%{
       opacity: 0;
   }
-  50%{
+  10%{
       opacity: 1;
   }
-  100%{
-      opacity: 0;
-      transform: translateY(-1rem);
+  20%, 80% { 
+      opacity: 1;
+      transform: translateY(-0.5rem);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-1rem);
   }
 } 
