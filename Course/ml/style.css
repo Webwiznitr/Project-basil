@@ -300,6 +300,7 @@ header{
     display: inline-block;
     letter-spacing: 2px;
     margin-right: -2px;
+    cursor: pointer;
 }
 
 .cta-btn{
