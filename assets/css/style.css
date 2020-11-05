@@ -34,14 +34,35 @@ section{
     padding: 3.9rem 0;
     overflow: hidden;
 }
-
-img{
-    padding-top: 6rem;
-    padding-left: 5rem;
-    width: 30%;
-    max-width: 30%;
+/*------------
+logo
+------*/
+.logo{
+    padding-top: 1.5rem;
+    padding-left: 3.5rem;
+    width: 35%;
+    max-width: 35%;
 }
 
+.logo-small{
+    padding-top: 0.7rem;
+    padding-left: 5rem;
+    width: 35%;
+    max-width: 35%;
+}
+
+.logo-small{
+    display: none;
+}
+
+.sticky .logo{
+    display: none;
+}
+
+.sticky .logo-small{
+    display: block;
+}
+/*--------logo end-------------*/
 a{
     text-decoration: none;
 }
@@ -155,6 +176,26 @@ header{
     color: var(--secondary-font-color);
 }
 
+.sticky{
+    position: fixed;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .navlink{
+    display: block;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin-right: -2px;
+    transition: color.5s;
+    padding-right: 2.5rem;
+}
+.sticky .navitem{
+    border-bottom: 2px solid rgba(255,255,255, .3);
+}
 
 /*Hero*/
 .hero{
