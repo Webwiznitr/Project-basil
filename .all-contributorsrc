@@ -6,12 +6,13 @@
   "commit": false,
   "contributors": [
     {
-      "login": "kanchitank",
-      "name": "Kanchi Tank",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/65490196?v=4",
-      "profile": "https://www.linkedin.com/in/kanchitank",
+      "login": "Aniket762",
+      "name": "Aniket Pal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/67703407?v=4",
+      "profile": "http://aliferous.xyz/",
       "contributions": [
-        "code"
+        "code",
+        "doc"
       ]
     },
     {
@@ -24,13 +25,12 @@
       ]
     },
     {
-      "login": "Aniket762",
-      "name": "Aniket Pal",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/67703407?v=4",
-      "profile": "http://aliferous.xyz/",
+      "login": "kanchitank",
+      "name": "Kanchi Tank",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/65490196?v=4",
+      "profile": "https://www.linkedin.com/in/kanchitank",
       "contributions": [
-        "code",
-        "doc"
+        "code"
       ]
     },
     {
