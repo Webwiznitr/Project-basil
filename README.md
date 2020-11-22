@@ -1,6 +1,6 @@
 # Roadmap
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -58,12 +58,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/kanchitank"><img src="https://avatars3.githubusercontent.com/u/65490196?v=4" width="100px;" alt=""/><br /><sub><b>Kanchi Tank</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=kanchitank" title="Code">💻</a></td>
-    <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars3.githubusercontent.com/u/63084088?v=4" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=sumana2001" title="Code">💻</a></td>
     <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars2.githubusercontent.com/u/67703407?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=Aniket762" title="Code">💻</a> <a href="https://github.com/Webwiznitr/Project-basil/commits?author=Aniket762" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars3.githubusercontent.com/u/63084088?v=4" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=sumana2001" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/kanchitank"><img src="https://avatars3.githubusercontent.com/u/65490196?v=4" width="100px;" alt=""/><br /><sub><b>Kanchi Tank</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=kanchitank" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AbhishekLwagun"><img src="https://avatars0.githubusercontent.com/u/69157459?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=AbhishekLwagun" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/aleenajoseph993"><img src="https://avatars0.githubusercontent.com/u/62883961?v=4" width="100px;" alt=""/><br /><sub><b>Aleena Joseph</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=aleenajoseph993" title="Documentation">📖</a></td>
     <td align="center"><a href="http://colina.dev/"><img src="https://avatars2.githubusercontent.com/u/31748140?v=4" width="100px;" alt=""/><br /><sub><b>Abigail Colina</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=maenad" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AnkitSingh-zm"><img src="https://avatars3.githubusercontent.com/u/66105983?v=4" width="100px;" alt=""/><br /><sub><b>Ankit Singh</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-basil/commits?author=AnkitSingh-zm" title="Code">💻</a></td>
   </tr>
 </table>
 
