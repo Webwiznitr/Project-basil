@@ -576,6 +576,7 @@ footer{
 .footer-content-divider p{
   line-height: 2;
   font-size: 1.5rem;
+  text-align:left;
 }
 
 .social-icons{
