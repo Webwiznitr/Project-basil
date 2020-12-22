@@ -344,8 +344,14 @@ header{
 }
 
 #topic-wrapper {
-  background: linear-gradient(to bottom right, #fff, #d1aaee)
+
 }
+
+/*#bg-sky{
+  background-repeat: no-repeat;
+  height = 100%;
+  width = 100%;
+}*/
 .profile-card{
   /* width: 400px; */
   text-align: center;
@@ -826,7 +832,7 @@ footer{
   10%{
       opacity: 1;
   }
-  20%, 80% { 
+  20%, 80% {
       opacity: 1;
       transform: translateY(-0.5rem);
   }
@@ -834,4 +840,4 @@ footer{
     opacity: 0;
     transform: translateY(-1rem);
   }
-} 
+}
