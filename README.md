@@ -7,20 +7,6 @@
 
 The scope of the project is to design a roadmap website. The vision of this project is to provide tracks to beginners in different fields of technology like AI, ML, Web Development, App Development etc. The list of courses must be arranged sequentially. All the list of Journals, video links and pdfs must be free **FREE**. The only aim to make this project is returing back to the community.
 
-
-### We are really excited to see your awesome PRs. As a recognition of your awesome efforts, we would be <span style="color:orange;">Shipping Free Schwag Kits 🎁</span> as a contribution gratitute.
-
-<img src="https://github.com/Webwiznitr/MilkERP/blob/master/HFSchwags.jpg" height="600">
-`Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
-
-### SCHAWAG KIT INCLUDES:
-- $50 Amazon Gift Card for the Best Contributor💵
-- Branded T-Shirts👕
-- Hoodies😋
-- Bagpacks🎒
-- Stickers Pack😍
-- And Many More Exciting Prizes🎁
-
 # Ways to contribute:
 1. Solve the issues which are listed
 2. Create your own issue and then send PR.
