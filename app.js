@@ -72,6 +72,10 @@ app.get('/htmlcss',(req,res) =>{
   res.render('materials/htmlcss');
 });
 
+app.get('/javascript',(req,res) =>{
+  res.render('materials/javascript');
+});
+
 app.get('/machinelearning',(req,res) =>{
   res.render('materials/machinelearning');
 });
@@ -100,6 +104,10 @@ app.get('/react',(req,res) =>{
   res.render('materials/react');
 });
 
+app.get('/redux',(req,res) =>{
+  res.render('materials/redux');
+});
+
 app.get('/rlanguage',(req,res) =>{
   res.render('materials/rlanguage');
 });
@@ -110,6 +118,10 @@ app.get('/ruby',(req,res) =>{
 
 app.get('/scala',(req,res)=>{
   res.render('scala');
+});
+
+app.get('/vue',(req,res) =>{
+  res.render('materials/vue');
 });
 
 app.get('/webaccessibility',(req,res) =>{
