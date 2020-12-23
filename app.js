@@ -68,6 +68,10 @@ app.get('/go',(req,res) =>{
   res.render('materials/go');
 });
 
+app.get('/haskell',(req,res) =>{
+  res.render('materials/haskell');
+});
+
 app.get('/htmlcss',(req,res) =>{
   res.render('materials/htmlcss');
 });
@@ -86,6 +90,10 @@ app.get('/mongodb',(req,res) =>{
 
 app.get('/nodejs',(req,res) =>{
   res.render('materials/nodejs');
+});
+
+app.get('/prolog',(req,res) =>{
+  res.render('materials/prolog');
 });
 
 app.get('/python',(req,res) =>{
