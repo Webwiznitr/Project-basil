@@ -32,6 +32,10 @@ app.get('/c',(req,res) =>{
   res.render('materials/c');
 });
 
+app.get('/cpp',(req,res) =>{
+  res.render('materials/cpp');
+});
+
 app.get('/csharp',(req,res) =>{
   res.render('materials/c#');
 });
@@ -40,12 +44,8 @@ app.get('/datastructure',(req,res) =>{
   res.render('materials/datastructure');
 });
 
-app.get('/datastructure',(req,res) =>{
-  res.render('materials/datastructure');
-});
-
-app.get('/deeplearning',(req,res) =>{
-  res.render('materials/deeplearning');
+app.get('/deepLearning',(req,res) =>{
+  res.render('materials/deepLearning');
 });
 
 app.get('/django',(req,res) =>{
