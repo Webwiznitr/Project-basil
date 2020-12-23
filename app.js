@@ -65,7 +65,7 @@ app.get('/htmlcss',(req,res) =>{
 });
 
 app.get('/machinelearning',(req,res) =>{
-  res.render('materials/machinelearing');
+  res.render('materials/machinelearning');
 });
 
 app.get('/matlab',(req,res) =>{
