@@ -20,10 +20,6 @@ app.get('/backend',(req,res) =>{
   res.render('backend');
 });
 
-app.get('/scala',(req,res)=>{
-    res.render('scala');
-});
-
 app.get('/angular',(req,res) =>{
   res.render('materials/angular');
 });
@@ -112,8 +108,12 @@ app.get('/ruby',(req,res) =>{
   res.render('materials/ruby');
 });
 
-app.get('/webaccessiblity',(req,res) =>{
-  res.render('materials/webaccessiblity');
+app.get('/scala',(req,res)=>{
+  res.render('scala');
+});
+
+app.get('/webaccessibility',(req,res) =>{
+  res.render('materials/webaccessibility');
 });
 
 app.listen(3000,function(){
