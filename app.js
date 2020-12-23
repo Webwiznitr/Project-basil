@@ -12,6 +12,14 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/frontend',(req,res) =>{
+  res.render('frontend');
+});
+
+app.get('/backend',(req,res) =>{
+  res.render('backend');
+});
+
 app.get('/scala',(req,res)=>{
     res.render('scala');
 });

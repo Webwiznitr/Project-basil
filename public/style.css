@@ -1127,7 +1127,7 @@ header {
 }
 
 .card-header {
-  padding: 60px 40px 112px 40px;
+  padding: 112px 40px 112px 40px;
   border: 2px solid black;
   position: relative;
   /*border-radius: 20px;*/
