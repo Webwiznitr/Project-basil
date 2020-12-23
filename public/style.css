@@ -374,6 +374,7 @@ header {
 
 .timeline ul {
   list-style: none;
+  width: 100%;
 }
 .timeline ul li {
   padding: 20px;
