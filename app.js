@@ -1,133 +1,139 @@
-const express = require('express');
-const bodyParser = require('body-parser');
+const express = require("express");
+const bodyParser = require("body-parser");
 
 const app = express();
 
-
 app.use(express.static("public"));
-app.set('view engine', 'ejs');
+app.set("view engine", "ejs");
 
-
-app.get('/', (req, res) => {
-  res.render('index');
+app.get("/", (req, res) => {
+  res.render("index");
 });
 
-app.get('/frontend',(req,res) =>{
-  res.render('frontend');
+app.get("/frontend", (req, res) => {
+  res.render("frontend");
 });
 
-app.get('/backend',(req,res) =>{
-  res.render('backend');
+app.get("/backend", (req, res) => {
+  res.render("backend");
 });
 
-app.get('/angular',(req,res) =>{
-  res.render('materials/angular');
+app.get("/angular", (req, res) => {
+  res.render("materials/angular");
 });
 
-app.get('/android',(req,res) =>{
-  res.render('materials/android');
+app.get("/android", (req, res) => {
+  res.render("materials/android");
 });
 
-app.get('/bootstrap',(req,res) =>{
-  res.render('materials/bootstrap');
+app.get("/bootstrap", (req, res) => {
+  res.render("materials/bootstrap");
 });
 
-app.get('/c',(req,res) =>{
-  res.render('materials/c');
+app.get("/c", (req, res) => {
+  res.render("materials/c");
 });
 
-app.get('/cpp',(req,res) =>{
-  res.render('materials/cpp');
+app.get("/cpp", (req, res) => {
+  res.render("materials/cpp");
 });
 
-app.get('/csharp',(req,res) =>{
-  res.render('materials/c#');
+app.get("/csharp", (req, res) => {
+  res.render("materials/c#");
 });
 
-app.get('/datastructure',(req,res) =>{
-  res.render('materials/datastructure');
+app.get("/datastructure", (req, res) => {
+  res.render("materials/datastructure");
 });
 
-app.get('/deepLearning',(req,res) =>{
-  res.render('materials/deepLearning');
+app.get("/deepLearning", (req, res) => {
+  res.render("materials/deepLearning");
 });
 
-app.get('/django',(req,res) =>{
-  res.render('materials/django');
+app.get("/django", (req, res) => {
+  res.render("materials/django");
 });
 
-app.get('/git',(req,res) =>{
-  res.render('materials/git');
+app.get("/flask", (req, res) => {
+  res.render("materials/flask");
 });
 
-app.get('/go',(req,res) =>{
-  res.render('materials/go');
+app.get("/git", (req, res) => {
+  res.render("materials/git");
 });
 
-app.get('/haskell',(req,res) =>{
-  res.render('materials/haskell');
+app.get("/go", (req, res) => {
+  res.render("materials/go");
 });
 
-app.get('/htmlcss',(req,res) =>{
-  res.render('materials/htmlcss');
+app.get("/haskell", (req, res) => {
+  res.render("materials/haskell");
 });
 
-app.get('/javascript',(req,res) =>{
-  res.render('materials/javascript');
+app.get("/htmlcss", (req, res) => {
+  res.render("materials/htmlcss");
 });
 
-app.get('/machinelearning',(req,res) =>{
-  res.render('materials/machinelearning');
+app.get("/javascript", (req, res) => {
+  res.render("materials/javascript");
 });
 
-app.get('/matlab',(req,res) =>{
-  res.render('materials/matlab');
+app.get("/machinelearning", (req, res) => {
+  res.render("materials/machinelearning");
 });
 
-app.get('/mongodb',(req,res) =>{
-  res.render('materials/mongodb');
+app.get("/matlab", (req, res) => {
+  res.render("materials/matlab");
 });
 
-app.get('/nodejs',(req,res) =>{
-  res.render('materials/nodejs');
+app.get("/mongodb", (req, res) => {
+  res.render("materials/mongodb");
 });
 
-app.get('/prolog',(req,res) =>{
-  res.render('materials/prolog');
+app.get("/nodejs", (req, res) => {
+  res.render("materials/nodejs");
 });
 
-app.get('/python',(req,res) =>{
-  res.render('materials/python');
+app.get("/php", (req, res) => {
+  res.render("materials/php");
 });
 
-app.get('/react',(req,res) =>{
-  res.render('materials/react');
+app.get("/prolog", (req, res) => {
+  res.render("materials/prolog");
 });
 
-app.get('/redux',(req,res) =>{
-  res.render('materials/redux');
+app.get("/python", (req, res) => {
+  res.render("materials/python");
 });
 
-app.get('/rlanguage',(req,res) =>{
-  res.render('materials/rlanguage');
+app.get("/react", (req, res) => {
+  res.render("materials/react");
 });
 
-app.get('/ruby',(req,res) =>{
-  res.render('materials/ruby');
+app.get("/redux", (req, res) => {
+  res.render("materials/redux");
 });
 
-app.get('/scala',(req,res)=>{
-  res.render('scala');
+app.get("/rlanguage", (req, res) => {
+  res.render("materials/rlanguage");
 });
 
-app.get('/vue',(req,res) =>{
-  res.render('materials/vue');
+app.get("/ruby", (req, res) => {
+  res.render("materials/ruby");
 });
 
-app.get('/webaccessibility',(req,res) =>{
-  res.render('materials/webaccessibility');
+app.get("/scala", (req, res) => {
+  res.render("scala");
 });
 
-app.listen(3000,function(){
-    console.log("running at port 3000");
+app.get("/vue", (req, res) => {
+  res.render("materials/vue");
+});
+
+app.get("/webaccessibility", (req, res) => {
+  res.render("materials/webaccessibility");
+});
+
+app.listen(3000, function () {
+  console.log("running at port 3000");
 });
