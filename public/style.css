@@ -1154,30 +1154,6 @@ header {
   text-shadow: 1px 1px 10px #121212;
 }
 
-#one {
-  background: url("../img/aiWallpaper.jpeg");
-  background-size: 100%;
-}
-#two {
-  background: url("../img/machinelearning.jpg");
-  background-size: 100%;
-}
-#three {
-  background: url("../img/appdev.jpg");
-  background-size: 100%;
-}
-#four {
-  background: url("../img/web.jpg");
-  background-size: 100%;
-}
-#five {
-  background: url("../img/cyber.jpg");
-  background-size: 100%;
-}
-#six {
-  background: url("../img/cc.jpg");
-  background-size: 100%;
-}
 
 .pic {
   display: inline-block;
