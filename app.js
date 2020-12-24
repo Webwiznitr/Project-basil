@@ -54,10 +54,6 @@ app.get("/django", (req, res) => {
   res.render("materials/django");
 });
 
-app.get("/flask", (req, res) => {
-  res.render("materials/flask");
-});
-
 app.get("/git", (req, res) => {
   res.render("materials/git");
 });
